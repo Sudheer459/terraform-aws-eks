@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "sudheerdevops59-remote-state"
+    bucket = "sudheerdevops59"
     key    = "expense-dev-eks"
     region = "us-east-1"
     dynamodb_table = "daws78s-locking"
